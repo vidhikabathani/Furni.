@@ -1,0 +1,237 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Dark Chair",
+      "price": 150.5,
+      "image": "https://i.pinimg.com/236x/4e/62/e0/4e62e0e55ea35b297f19e33e43256c8b.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 2,
+      "title": "Woodstorming",
+      "price": 29.99,
+      "image": "https://i.pinimg.com/236x/81/6a/46/816a46fa14a177e7c27094dc7ac20a84.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 3,
+      "title": "Dining Chair",
+      "price": 1000,
+      "image": "https://i.pinimg.com/236x/5c/e2/c9/5ce2c92f80ca845b73c4d4a5daf4dba1.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 4,
+      "title": "Sofa",
+      "price": "5550",
+      "image": "https://i.pinimg.com/236x/f6/5e/73/f65e732cacf9abee5bb8ce05dd898759.jpg",
+      "category": "Sofa"
+    },
+    {
+      "id": 5,
+      "title": "Armchair",
+      "price": 390,
+      "image": "https://i.pinimg.com/236x/4a/b5/aa/4ab5aa82756312078bc68424e5e4d74f.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 6,
+      "title": "Sofa",
+      "price": 5000.2,
+      "image": "https://i.pinimg.com/564x/d9/07/f5/d907f52dedb1abd61c522da344df5d5a.jpg",
+      "category": "Sofa"
+    },
+    {
+      "id": 7,
+      "title": "Indoor Decor",
+      "price": 2999,
+      "image": "https://i.pinimg.com/564x/b8/95/28/b895287a46264d012f8dc253da827b5a.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 8,
+      "title": "Chair",
+      "price": 1999,
+      "image": "https://i.pinimg.com/564x/45/a2/42/45a242471a3412ff85650f79a896c176.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 9,
+      "title": "Plant Stand",
+      "price": "1150",
+      "image": "https://i.pinimg.com/564x/ac/21/6f/ac216f0fb680a83b17feae84b644c9ee.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 10,
+      "title": "Sofa",
+      "price": "6550",
+      "image": "https://i.pinimg.com/236x/48/32/a3/4832a3786a7bf5a1b4f185cb8db41744.jpg",
+      "category": "Sofa"
+    },
+    {
+      "id": 11,
+      "title": "Outdoor Plant-Pot",
+      "price": "680",
+      "image": "https://i.pinimg.com/236x/f1/84/9b/f1849b564ed70c5da221ea7cc5c39db0.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 12,
+      "title": "Outdoor Decor",
+      "price": "4580",
+      "image": "https://i.pinimg.com/236x/96/34/9f/96349f52c3d078c790e293192d660b0e.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 13,
+      "title": "Office Table-Chair",
+      "price": "19000",
+      "image": "https://i.pinimg.com/236x/8b/00/90/8b0090416e680eac80ac2a06ab36cdf7.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 14,
+      "title": "Outdoor Plant-Pot",
+      "price": "1200",
+      "image": "https://i.pinimg.com/236x/2b/d6/fc/2bd6fc20560ef9819956ca457bdb95c1.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 15,
+      "title": "Chair",
+      "price": "4300.5",
+      "image": "https://i.pinimg.com/236x/e5/58/6e/e5586e1c2308d0d8095fd3b2f7d36b7d.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 16,
+      "title": "Armchair",
+      "price": "750",
+      "image": "https://i.pinimg.com/236x/ce/ef/48/ceef482fa2fde5dd3b3d0869aec675b7.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 17,
+      "title": "Dining Chair",
+      "price": "1700",
+      "image": "https://i.pinimg.com/236x/04/e8/5d/04e85d8dfb43700ee029b5ce8a65853e.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 18,
+      "title": "Study Table-Chair",
+      "price": "3000",
+      "image": "https://i.pinimg.com/236x/88/a3/af/88a3afebb420b5963de85dfb22114043.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 19,
+      "title": "Wooden Table",
+      "price": "1050",
+      "image": "https://i.pinimg.com/236x/fc/de/76/fcde76ac723f0ea185c8c078885eeeaa.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 20,
+      "title": "Office Chair",
+      "price": "950.5",
+      "image": "https://i.pinimg.com/236x/f3/8c/04/f38c04b31bdf1bdb384121b377369466.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 21,
+      "title": "Wooden Chair",
+      "price": "1859.5",
+      "image": "https://i.pinimg.com/236x/f7/c1/6e/f7c16e10f18cd04634f31e4773e4f049.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 22,
+      "title": "Coffee Table",
+      "price": "1000",
+      "image": "https://i.pinimg.com/236x/40/08/e0/4008e0d2a4b9f2d08b36733570036ff5.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 23,
+      "title": "Flower Vase set",
+      "price": "210",
+      "image": "https://i.pinimg.com/236x/5b/3d/9b/5b3d9b2203c17262b297478113f803fe.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 24,
+      "title": "Chair",
+      "price": "1000",
+      "image": "https://i.pinimg.com/236x/68/ab/c5/68abc5799f944c8077b1d4b28039ede3.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 25,
+      "title": "Office Chair",
+      "price": "1900",
+      "image": "https://i.pinimg.com/236x/20/3a/19/203a193ad9036d6a27eaa88a77ab4142.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 26,
+      "title": "Table Lamp",
+      "price": "150",
+      "image": "https://i.pinimg.com/236x/4e/83/08/4e8308b521f3e2130a3355bd912cdbf4.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 27,
+      "title": "Lamp",
+      "price": "2500",
+      "image": "https://i.pinimg.com/236x/34/39/3f/34393fcef7790166062418277314e091.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 28,
+      "title": "Red Couch",
+      "price": "3900",
+      "image": "https://i.pinimg.com/564x/30/9d/8d/309d8dd06ae25271f956bcb56621d5f1.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 29,
+      "title": "Stone Flower Vase",
+      "price": "500.5",
+      "image": "https://i.pinimg.com/236x/0a/ce/e1/0acee1c0b5396b618d6fc9d3cfd3ffa1.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 30,
+      "title": "White Couch",
+      "price": "4000",
+      "image": "https://i.pinimg.com/236x/e3/bd/5f/e3bd5fc3806ac39970cf30a6afe8a857.jpg",
+      "category": "Furniture"
+    },
+    {
+      "id": 31,
+      "title": "Table Lamp",
+      "price": "1200",
+      "image": "https://i.pinimg.com/236x/da/3a/88/da3a88a16886402a573a46ff3c80728f.jpg",
+      "category": "Decor"
+    },
+    {
+      "id": 32,
+      "title": "Office Chair",
+      "price": "250",
+      "image": "https://i.pinimg.com/236x/a4/84/1d/a4841dfc92b6dc7ea61ce05264862af7.jpg",
+      "category": "Chair"
+    }
+  ],
+  "cart": [],
+  "users": [
+    {
+      "usertitle": "vidhikabathani",
+      "email": "vidhikabathani110@gmail.com",
+      "password": "123",
+      "id": 1
+    }
+  ]
+}

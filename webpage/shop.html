@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furni.-shop</title>
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/Aldrich.css">
+    <link rel="stylesheet" href="../css/Quicksand.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #products {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        @media (max-width:992px) {
+            #products {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width:768px) {
+            #products {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width:575px) {
+            #products {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        #products img {
+            max-width: 250px;
+            max-height: 350px;
+        }
+
+        #products div {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER  -->
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <h3 class="nav-item me-5 me-auto fa fw-bold"><a href="#"
+                        class="text-decoration-none text-primary">Furni.</a></h3>
+                <div class="navbar-toggler">
+                    <div class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#navbar"></div>
+                </div>
+                <div class="collapse navbar-collapse me-md-auto" id="navbar">
+                    <ul class="navbar-nav mx-md-auto align-items-center">
+                        <li class="nav-item me-md-5"><a href="index.html" class="nav-link">HOME</a></li>
+                        <li class="nav-item me-md-5"><a href="about.html" class="nav-link">ABOUT</a></li>
+                        <li class="nav-item me-md-5"><a href="services.html" class="nav-link">SERVICES</a></li>
+                        <li class="nav-item me-md-5"><a href="shop.html" class="nav-link text-primary active">SHOP</a>
+                        </li>
+                        <li class="nav-item me-md-5"><a href="blog.html" class="nav-link">BLOG</a></li>
+                        <li class="nav-item me-md-5"><a href="contact.html" class="nav-link">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BANNER SECTION  -->
+    <div class="banner-about">
+        <div class="container p-80">
+            <div class="row justify-content-center p-5">
+                <div class="col-lg-7 text-center pt-5 text-white-50 wow animate__animated animate__fadeInUp">
+                    <div class="pt-5">
+                        <h1 class="fw-bold mb-5 pt-5">Shop Now</h1>
+                        <span class="text-white">Shop > Home</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRICING SECTION  -->
+    <section class="p-80">
+        <div class="container">
+            <h6 class="text-primary fw-bold text-center">OUR PRICING</h6>
+            <div class="h-title text-center">
+                <h1 class="mb-5 fw-bold">Choose the package that suits you</h1>
+            </div>
+            <div class="row align-items-center justify-content-between align-items-baseline">
+                <div class="col-12 col-lg-4 p-4 wow animate__animated animate__flipInX">
+                    <div class="pricing-box text-center rounded-3 p-5">
+                        <h5>Renovation</h5>
+                        <h2 class="pt-3"><sup>$</sup>120.00</h2>
+                        <span class="text-muted">PER MONTH</span>
+                        <p class="mt-4 border-top pt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accu santium doloremque laudantium, totam rem Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quidem, deserunt?</p>
+                        <button class="btn btn-primary w-100 mt-4 fw-bold">BUY PLAN</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 p-4 wow animate__animated animate__flipInX">
+                    <div class="pricing-box text-center rounded-3 p-5">
+                        <h5>Interior</h5>
+                        <h2 class="pt-3"><sup>$</sup>180.00</h2>
+                        <span class="text-muted">PER MONTH</span>
+                        <p class="mt-4 border-top pt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accu santium doloremque laudantium, totam rem Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quidem, deserunt?</p>
+                        <button class="btn btn-primary w-100 mt-4 fw-bold">BUY PLAN</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 p-4 wow animate__animated animate__flipInX">
+                    <div class="pricing-box text-center rounded-3 p-5">
+                        <h5>Decoration</h5>
+                        <h2 class="pt-3"><sup>$</sup>100.00</h2>
+                        <span class="text-muted">PER MONTH</span>
+                        <p class="mt-4 border-top pt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accu santium doloremque laudantium, totam rem Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quidem, deserunt?</p>
+                        <button class="btn btn-primary w-100 mt-4 fw-bold">BUY PLAN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOP SECTION  -->
+    <section class="p-80">
+        <div class="container">
+            <h6 class="text-primary fw-bold text-center">FURNITURE</h6>
+            <div class="h-title text-center">
+                <h1 class="mb-5 fw-bold">Interior Furniture & Decor</h1>
+            </div>
+            <div id="parent-div">
+                <div class="d-flex justify-content-between mb-5">
+                    <div id="cat" class="d-flex">
+                        <button class="btn btn-primary me-4" id="sofa">Sofa</button>
+                        <button class="btn btn-primary me-4" id="furniture">Furniture</button>
+                        <button class="btn btn-primary me-4" id="decor">Decor</button>
+                        <button class="btn btn-primary me-4" id="lth">Low to High</button>
+                        <button class="btn btn-primary me-4" id="htl">High to Low</button>
+                    </div>
+                    <button class="btn btn-primary"><a href="../webpage/cart.html"
+                            class="text-decoration-none text-white fw-bold"> Go To Cart Page</a></button>
+                </div>
+                <div id="products"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BRAND LOGO  -->
+    <section class="p-80">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="../img/logo-3.png" alt="">
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="../img/logo-4.png" alt="">
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="../img/logo-1.png" alt="">
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="../img/logo-5.png" alt="">
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="../img/logo-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER  -->
+    <footer class="p-80 dot-bg">
+        <div class="container">
+            <div class="row align-items-baseline">
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <h3 class="nav-item me-5 text-primary fa fw-bold">Furni.</h3>
+                    <p class="pt-2 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, soluta.
+                        Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="social-contact row mt-4">
+                        <div class="t me-2 rounded ms-2"><a href="#" class="text-decoration-none text-muted fs-4"><i
+                                    class="bi bi-twitter"></i></a></div>
+                        <div class="t me-2 rounded"><a href="#" class="text-decoration-none text-muted fs-4"><i
+                                    class="bi bi-instagram"></i></a></div>
+                        <div class="t me-2 rounded"><a href="#" class="text-decoration-none text-muted fs-4"><i
+                                    class="bi bi-youtube"></i></a></div>
+                        <div class="t me-2 rounded"><a href="#" class="text-decoration-none text-muted fs-4"><i
+                                    class="bi bi-linkedin"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="f-h">
+                        <h5 class="fw-bold ps-4 text-primary">Features</h5>
+                        <ul class="pt-2">
+                            <li class="list-unstyled pb-1"><a href="about.html"
+                                    class="text-decoration-none text-dark">About Us</a></li>
+                            <li class="list-unstyled pb-1"><a href="services.html"
+                                    class="text-decoration-none text-dark">Services</a></li>
+                            <li class="list-unstyled pb-1"><a href="shop.html"
+                                    class="text-decoration-none text-dark">Our Products</a></li>
+                            <li class="list-unstyled pb-1"><a class="text-decoration-none text-dark">Testimonial</a>
+                            </li>
+                            <li class="list-unstyled pb-1"><a href="contact.html"
+                                    class="text-decoration-none text-dark">ContactUs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <h5 class="fw-bold text-primary">Address</h5>
+                    <div class="address pt-2 d-flex">
+                        <i class="bi bi-geo-alt-fill text-muted fs-4 me-2"></i>
+                        <p class="">7176 Blue Spring Lane the word mountains,
+                            CA 90403</p>
+                    </div>
+                    <div class="address d-flex">
+                        <i class="bi bi-telephone-fill text-muted fs-4 me-2"></i>
+                        <a href="tel:+012 345 67890" class="text-decoration-none text-muted">+012 345 67890</a>
+                    </div>
+                    <div class="address d-flex">
+                        <i class="bi bi-envelope-fill text-muted fs-4 me-2"></i>
+                        <a href="mailto:furni.design@gmail.com"
+                            class="text-decoration-none text-muted">furni.design@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <h5 class="fw-bold text-primary">Newaletter</h5>
+                    <p class="mb-2">Dolor amet sit justo amet elitr clita elitr clita ipsum elitr est.</p>
+                    <input type="text" placeholder="Enter Email" class="w-100 p-1 mb-3">
+                    <button class="btn btn-primary px-4">Subscribe</button>
+                </div>
+            </div>
+            <div class="text-center border-top pt-3">
+                <div class="copy-r text-center d-flex justify-content-between">
+                    <span class="text-muted">develop by..</span>
+                    <span class="text-muted">Copyright © 2021 Inspire. All Rights Reserved</span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.7.0.min.js"></script>
+    <script src="../js/shop.js"></script>
+
+    <!-- HEADER FIXED JQUERY  -->
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                $("header").addClass("fixed-top shadow");
+            }
+            else {
+                $("header").removeClass("fixed-top shadow");
+            }
+        })
+    </script>
+
+
+</body>
+
+</html>
