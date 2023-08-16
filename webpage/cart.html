@@ -5,6 +5,7 @@
     <title>cart Page</title>
     <link rel="stylesheet" href="../css/Aldrich.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../css/Quicksand.css">
     <link rel="stylesheet" href="../css/style.css">
     <style>
@@ -54,16 +55,72 @@
 </head>
 
 <body>
-    <section>
+    <!-- HEADER  -->
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <h3 class="nav-item me-5 me-auto fa fw-bold"><a href="#"
+                        class="text-decoration-none text-primary">Furni.</a></h3>
+                <div class="navbar-toggler">
+                    <div class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#navbar"></div>
+                </div>
+                <div class="collapse navbar-collapse me-md-auto" id="navbar">
+                    <ul class="navbar-nav mx-md-auto align-items-center">
+                        <li class="nav-item me-md-5"><a href="index.html" class="nav-link text-primary active">HOME</a>
+                        </li>
+                        <li class="nav-item me-md-5"><a href="about.html" class="nav-link">ABOUT</a></li>
+                        <li class="nav-item me-md-5"><a href="services.html" class="nav-link">SERVICES</a></li>
+                        <li class="nav-item me-md-5"><a href="shop.html" class="nav-link">SHOP</a></li>
+                        <li class="nav-item me-md-5"><a href="blog.html" class="nav-link">BLOG</a></li>
+                        <li class="nav-item me-md-5"><a href="contact.html" class="nav-link">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CART SECTION   -->
+    <section class="p-80">
         <div class="container">
             <div id="cartpage"></div>
             <div id="other">
                 <div id="price"></div>
             </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                BUY NOW
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                                <h1 class="modal-title fs-5 fw-bold" id="staticBackdropLabel">Thank You For Visit The <span class="fa text-primary">Furni.</span> </h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <i class="bi bi-check-circle-fill text-primary fs-5"></i>
+                            <span>Done!</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <script src="../js/bootstrap.min.js"></script>
     <script src="../js/cart.js"></script>
+    <script>
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+            myInput.focus()
+        })
+    </script>
 </body>
 
 </html>
